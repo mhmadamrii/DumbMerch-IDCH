@@ -1,0 +1,152 @@
+/* chat */
+.contact-active{
+    background-color: #212121;
+    border-radius: 0.2rem;
+}
+
+
+.status-transaction-success {
+    background-color: #268d37b0;
+  }
+  
+  .status-transaction-pending {
+    background-color: #8b8d265b;
+  }
+  
+  .status-transaction-failed {
+    background-color: #8d26265b;
+  }
+
+
+  /* chat css II */
+  .img-chat {
+    width: 40px !important;
+    height: 40px !important;
+    object-fit: cover !important;
+  }
+  
+  .chat-me {
+    position: relative;
+    background: #262626;
+    color: white;
+    border-radius: 5px;
+    padding: 10px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    max-width: 20rem;
+    word-wrap: break-word;
+  }
+  
+  .chat-me::before {
+    content: "";
+    position: absolute;
+    top: 8px;
+    right: -15px;
+    border-top: 15px solid transparent;
+    border-left: 20px solid #262626;
+    border-bottom: 15px solid transparent;
+  }
+  .chat-other {
+    position: relative;
+    background: #575757;
+    color: white;
+    border-radius: 5px;
+    margin-left: 10px;
+    padding: 10px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    max-width: 20rem;
+    word-wrap: break-word;
+  }
+  
+  .chat-other::before {
+    content: "";
+    position: absolute;
+    top: 8px;
+    left: -15px;
+    border-top: 15px solid transparent;
+    border-right: 20px solid #575757;
+    border-bottom: 15px solid transparent;
+  }
+  
+  .img-contact {
+    width: 50px !important;
+    height: 50px !important;
+    object-fit: cover !important;
+  }
+  
+  .img-chat {
+    width: 40px !important;
+    height: 40px !important;
+    object-fit: cover !important;
+  }
+  
+  .text-contact {
+    font-size: 14px;
+  }
+  
+  .text-contact-chat {
+    color: #ababab;
+  }
+  
+  .contact {
+    display: flex;
+    align-items: center;
+  }
+  .contact img {
+    flex-grow: 0;
+    flex-shrink: 0;
+  }
+  
+  .contact ul {
+    list-style-type: none;
+  }
+  
+  .contact:hover {
+    background-color: #212121;
+    transition: 0.5s;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .contact:active {
+    background-color: #3d3d3d;
+    transition: 0.3s;
+  }
+  
+  .contact-active {
+    background-color: #212121;
+    border-radius: 5px;
+  }
+  
+  .input-message {
+    width: 100%;
+    height: 90%;
+    background: #212121;
+    border: none;
+    color: #ffffff;
+  }
+
+  /* width */
+::-webkit-scrollbar {
+    width: 0.8rem;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    border-radius: 0.5rem;
+    background: #f1f1f1; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    border-radius: 0.5rem;
+    background: #888; 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }
